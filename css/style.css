@@ -400,4 +400,10 @@ ul {
     .jumbotron #description {
         height: auto;
     }
+    .company {
+        overflow-x: scroll;
+    }
+    .nav {
+        flex-wrap: nowrap;
+    }
 }
