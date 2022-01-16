@@ -311,6 +311,7 @@ ul {
 @media (max-width: 768px) {
     h1, h2, h3 {
         font-size: 35px;
+        height: auto;
         margin-bottom: 20px;
     }
     h4 {
@@ -322,9 +323,16 @@ ul {
     .jumbotron {
         margin-top: 50px;
     }
+    .jumbotron h1 {
+        margin: 0px;
+    }
+    .jumbotron #description {
+        height: 48px;
+    }
 
     .name {
         font-size: 40px;
+        height: auto;
     }
     .hero-element #subtitle {
         font-size: 30px;
