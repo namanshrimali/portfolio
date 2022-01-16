@@ -7,11 +7,11 @@ html {
 h1, h2, h3 {
     font-family: "Rufina", serif;
     color: #002d5b;
-    margin: 30px 0px;
     font-style: normal;
     font-weight: 500;
     text-transform: normal;
-    line-height: 1.1;
+    margin-bottom: 0px;
+    height: 60px;
 }
 .flex-space {
     display: flex;
@@ -153,6 +153,10 @@ ul {
     text-align: center;
     padding-bottom: 25px;
 }
+#video {
+    width: 100%;
+    padding: 15px;
+}
 
 #jobs {
     max-width: 1000px;
@@ -209,16 +213,8 @@ ul {
     margin: 0;
 }
 
-.hero-element #description {
-    margin: 20px 0px
-}
-
-.hero-element #greeting {
-    font-size: 22px;
-}
-
 .hero-element #subtitle {
-    font-size: 50px;
+    font-size: 50px;    
 }
 
 .jumbotron {
@@ -231,18 +227,18 @@ ul {
     background: #E1E5E8;
 }
 
-.jumbotron h1 {
-    margin-bottom: 15px;
-}
 
 .jumbotron #greeting {
     line-height: 30px;
-    margin-bottom: 30px;
     width: 60%;
+    font-size: 22px;
 }
-
+.jumbotron #description {
+    margin-top: 16px;
+}
 .name {
     font-size: 80px;
+    height: 96px;
     font-weight: bolder;
 }
 
