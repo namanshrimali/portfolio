@@ -116,7 +116,7 @@ ul {
       opacity: 0;
       z-index: -1;
 }
-.card:hover, .card:focus {
+.card:hover, .card:focus, .card:active {
       transform: scale3d(1.13, 1.13, 1);
 }
 
